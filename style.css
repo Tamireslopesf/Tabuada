@@ -1,0 +1,85 @@
+body{
+  background: rgb(80, 49, 194);
+  background: linear-gradient(90deg, rgb(18, 29, 126) 0%, rgba(0,149,255,1) 38%, rgba(95,198,251,1) 100%);
+}
+
+h1{
+  text-align: center;
+  font-size: 25pt;
+}
+
+.container{
+font-family: 'Ubuntu', sans-serif;
+font-size: 15pt;
+background: white;
+border-radius: 10px;
+padding:15px ;
+width: 500px;
+margin: 50px auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
+color: black;
+}
+
+#area-tab{
+  text-align: center;
+}
+
+#resposta{
+  padding: 30px;
+  text-align: center;
+}
+
+#btn {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+#btn:hover,
+#btn:focus {
+  background-color: #07c;
+}
+
+#btn:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+#btn:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+/*Responsividade*/
+@media only screen and (max-width : 425px){
+  
+  h1{
+    font-size: 17pt;
+  }
+ .container{
+    font-size: 9pt;
+    width: 250px;
+}
+#btn{
+  font-size: 8pt;
+}
+}
